@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi_8953
 
+# Pixel 2 Camera
+PRODUCT_PACKAGES += \
+    GCam
+
 # Call the camera setup
 $(call inherit-product, vendor/xiaomi/MiuiCamera/MiuiCamera-vendor.mk)
 $(call inherit-product, vendor/xiaomi/MiuiCamera/tiffany.mk)
